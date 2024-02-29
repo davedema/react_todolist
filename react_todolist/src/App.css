@@ -4,18 +4,70 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  width: 100%;
+  height: 100%;
 }
+
 
 body{
   font-family: "Kdam Thmor Pro", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
+#root{
+  height: 100%;
+  width: 100%;
+}
+
+
+
 .button_container{
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+
+
+
+.title{
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 25px;
+  font-size: 72px;
+}
+
+.checkbox_txt_form{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items : center;
+}
+
+form{
+  margin: 40px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.list_container{
+  width: 100%;
+  margin-top: 20px;
+  padding:20px;
+  background-color: rgba(255, 255, 255, 0.074);
+  border-radius: 5px;
 }
 
 ol{
@@ -23,12 +75,55 @@ ol{
   flex-direction: column;
   justify-content: center;
   align-items: start;
+  width: 100%;
+  list-style-type:none;
+  padding: 0px;
+}
+li{
+  width: 100%;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: center;
 }
 
-.title{
- 
-  font-weight: 400;
-  font-style: normal;
-  margin-top: 25px;
-  font-size: 72px;
+.list_element{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+}
+
+
+
+
+.my_label{
+  color: black;
+}
+
+.floating_perc{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 80px;
+  height: 80px;
+  background-color: #1976d2;
+  border-style: groove;
+  border-width: 2px;
+  border-color: aliceblue;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+  color: black;
+}
+
+
+.main_container{
+  width: 50vw;
 }
